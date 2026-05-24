@@ -31,7 +31,6 @@ FetchContent_Declare(
 	glfw
 	GIT_REPOSITORY https://github.com/glfw/glfw.git
 	GIT_TAG fdd14e65b1c29e4e6df875fb5669ec00d6793531
-	GIT_SHALLOW TRUE
 )
 
 set(GLM_BUILD_TESTS OFF CACHE BOOL "" FORCE)
@@ -41,7 +40,6 @@ FetchContent_Declare(
 	glm
 	GIT_REPOSITORY https://github.com/g-truc/glm.git
 	GIT_TAG e7970a8b26732f1b0df9690f7180546f8c30e48e
-	GIT_SHALLOW TRUE
 )
 
 add_local_or_fetch_dependency(glfw vendor/glfw)

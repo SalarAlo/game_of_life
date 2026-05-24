@@ -10,7 +10,7 @@
 
 #include "glm/glm.hpp"
 
-static void framebuffer_size_callback(GLFWwindow* window, int height, int width);
+static void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 
 static const char* vertex_shader_source {
 	R"glsl(
